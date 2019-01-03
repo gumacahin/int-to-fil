@@ -1,0 +1,26 @@
+{
+    "name": "gumacahin/int-to-filipino",
+    "description": "Translate's integers to Filipino.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco Enrico",
+            "email": "mvalviar@gmail.com"
+        }
+    ],
+    "minimum-stability":"stable",
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit":"^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gumacahin\\":"src/"
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit test"
+    }
+}
